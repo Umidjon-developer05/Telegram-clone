@@ -82,7 +82,7 @@ const HomePage = () => {
 	}
 
 	useEffect(() => {
-		socket.current = io("ws://telegram-clone-socket.vercel.app");
+		socket.current = io("ws://telegram-clone-socket-vci7.onrender.com");
 	}, [])
 
 	useEffect(() => {
